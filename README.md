@@ -12,6 +12,7 @@ The second chart was a little more complicated. I hoped for more interesting fin
 
 * `notebooks` contains all the Python code
 * `docs` contains .xlsx and .csv with the data
+* `images` contains all the images used on the page
 
 This is my very first data journalism project so I used numerous newly learned skills while making it: especially working with data and cleaning it in Pandas, but also refining charts in Datawrapper and using HTML and CSS to create the page.
 
