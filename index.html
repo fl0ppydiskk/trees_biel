@@ -34,12 +34,16 @@
             color: #f05349;
         }
 
-        .footer {
-            background: #f4f4f4;
-            text-align: center;
+        .footer_image_text {
+            position: absolute;
+            font-family: Tahoma, Georgia, serif;
+            top: 1em;
+            right: 1em;
+            color: #ffffff;
+            text-shadow: 0px 0px 30px black,
+                0px 0px 10px rgba(0, 0, 0, 0.5);
             font-size: 0.8em;
-            margin-top: 4em;
-            padding: 4em 0;
+            margin: 0;
         }
 
         figure {
@@ -122,7 +126,7 @@
     </style>
     <style>
         .with-image-bg,
-        .with-image-bg-bottom
+        .with-image-bg-bottom,
         .with-video-bg {
             position: relative;
             background-size: cover;
@@ -142,10 +146,14 @@
 
         .with-image-bg {
             background-image: url('trees_elfenaupark.jpg');
+            position: relative;
+            margin-bottom: 2em;
         }
 
         .with-image-bg-bottom {
             background-image: url('foliage.jpg');
+            min-height: 30svh;
+            margin-bottom: 0;
         }
 
         .video-background {
@@ -173,7 +181,7 @@
     </div>
     <div class="content">
         <div class="byline">
-            <p>By Florine Schönmann</a></p>
+            <p>by Florine Schönmann</a></p>
         </div>
     <div class="content">
         <p>The summer season has begun. While this used to mean mild evenings and leisurely ice cream by Lake Biel, the increasingly hotter days are becoming uncomfortable for more and more people. The current heatwave is prompting many to install air conditioning – still a rarity in Switzerland. But it’s not just people who are suffering from the heat. Plants that have thrived in our latitudes for centuries are also struggling.</p>
@@ -209,7 +217,10 @@
         <p>The experiences gained in Biel show what is true for a lot of places in the world: Adapting to climate change is not just possible, it has become essential.</p>
     </div>
 
-    <img src="foliage.jpg">
+    <div class="header with-image-bg-bottom">
+        <p class="footer_image_text">Photos by Florine Schönmann</p>
+
+    </div>
 
 </body>
 
